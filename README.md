@@ -59,6 +59,27 @@ Multi-task learning (MTL) often suffers from **task interference** and **ineffic
 
 > 🔹 Up to **97% reduction** on USPS with minimal performance loss
 
+---
+
+### 🧪 Visual Decathlon Challenge (Summary Table)
+
+| Method                   | Avg Accuracy (%) | # Parameters (M) | Param Ratio |
+|--------------------------|------------------|------------------|-------------|
+| Single-task              | **74.69**        | 101.68           | 100%        |
+| Soft Param Sharing [7]   | 65.24            | 101.68           | 100%        |
+| Cross-stitch [8]         | 76.33            | 203.36           | 200%        |
+| NDDR [10]                | 59.76            | 252.86           | 248%        |
+| TAPS [6]                 | 59.11            | 130.5            | 128%        |
+| **DMO (Ours)**           | 74.40            | **11.48**        | **11%**     |
+
+---
+
+### 📑 Visual Decathlon Table (From Paper)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sujin-1013/Task-Aware-DMO/main/visual_decathlon_table.png" width="700"/>
+</p>
+<sub><i>Figure: Visual Decathlon Challenge results table (from IEEE Access paper)</i></sub>
 
 ## 🧑‍💻 Author
 
