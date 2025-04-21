@@ -16,7 +16,7 @@ Multi-task learning (MTL) often suffers from **task interference** and **ineffic
 - Producing **lightweight subnetworks**, reducing parameters by over **80%** on average
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sujin-1013/Task-Aware-DMO/main/dmo_overview.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/sujin-1013/Task-Aware-DMO/main/assets/dmo_overview.png" width="700"/>
 </p>
 <sub><i>Figure: Overview of Task-Aware Dynamic Model Optimization (DMO)</i></sub>
 
@@ -87,7 +87,7 @@ Task-Aware-DMO/
 ### 📑 Visual Decathlon Table (From Paper)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sujin-1013/Task-Aware-DMO/main/visual_decathlon_table.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/sujin-1013/Task-Aware-DMO/main/assets/visual_decathlon_table.png" width="700"/>
 </p>
 <sub><i>Figure: Visual Decathlon Challenge results table (from IEEE Access paper)</i></sub>
 
