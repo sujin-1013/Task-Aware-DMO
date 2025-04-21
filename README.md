@@ -6,6 +6,7 @@
 This repository introduces the core ideas and implementation of  
 **Task-Aware Dynamic Model Optimization (DMO)**, a memory-efficient multi-task learning (MTL) framework.
 
+---
 
 ## 🔍 Overview
 
@@ -21,6 +22,8 @@ Multi-task learning (MTL) often suffers from **task interference** and **ineffic
 </p>
 <sub><i>Figure: Overview of Task-Aware Dynamic Model Optimization (DMO)</i></sub>
 
+---
+
 ## 🎯 Key Components
 
 - **Task Similarity Measurement**
@@ -32,15 +35,24 @@ Multi-task learning (MTL) often suffers from **task interference** and **ineffic
   - Pruning by task difficulty
   - Merging into group-specific subnetworks
 
+---
 
 ## 🛠️ Code Structure
 
-- `models/`: Backbone network, task-specific heads, pruning utilities
-- `train.py`: Training logic across grouped tasks
-- `evaluate.py`: Evaluation and metrics
-- `config/`: Experimental settings
-- `results/`: Graphs and tables from the paper
-- `paper/`: Original PDF paper for reference
+## 🛠️ Code Structure
+
+```
+Task-Aware-DMO/
+├── models/           # Backbone network, task-specific heads, pruning utilities
+├── train.py          # Training logic
+├── evaluate.py       # Evaluation and metrics
+├── config/           # Experimental settings
+├── results/          # Graphs and tables from the paper
+└── paper/            # Original PDF paper for reference
+```
+
+
+---
 
 ## 🧪 Datasets Used
 
@@ -48,6 +60,7 @@ Multi-task learning (MTL) often suffers from **task interference** and **ineffic
 - CIFAR-100 (20-task version)
 - Visual Decathlon Challenge (10 diverse tasks)
 
+---
 
 ## 📊 Result Summary
 
@@ -81,13 +94,11 @@ Multi-task learning (MTL) often suffers from **task interference** and **ineffic
 </p>
 <sub><i>Figure: Visual Decathlon Challenge results table (from IEEE Access paper)</i></sub>
 
-## 🧑‍💻 Author
-
-Su-jin Choi (최수진)  
-Master of AI, Chung-Ang University  
-Email: [popo2419@naver.com]  
-Paper DOI: [10.1109/ACCESS.2023.3339793](https://doi.org/10.1109/ACCESS.2023.3339793)
-
 ---
 
-🔧 _Code under construction. More modules coming soon._
+## 🧑‍💻 Author
+
+**Su-jin Choi (최수진)**  
+Master of AI, Chung-Ang University  
+📧 popo2419@naver.com  
+📄 [IEEE Access Paper](https://doi.org/10.1109/ACCESS.2023.3339793)
