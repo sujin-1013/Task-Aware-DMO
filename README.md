@@ -10,11 +10,16 @@ This repository introduces the core ideas and implementation of
 ## 🔍 Overview
 
 Multi-task learning (MTL) often suffers from **task interference** and **inefficient resource usage**.  
-**DMO** addresses these issues by:
+**DMO (Dynamic Model Optimization)** addresses these issues by:
 
 - Grouping tasks based on **inter-task similarity** (weight & loss correlations)
 - Dynamically allocating parameters based on **task difficulty**
 - Producing **lightweight subnetworks**, reducing parameters by over **80%** on average
+
+<p align="center">
+  <img src="https://github.com/sujin-choi/Task-Aware-DMO/blob/main/dmo_overview.png" width="700"/>
+</p>
+<sub><i>Figure: Overview of the DMO framework – from task metric calculation to parameter allocation</i></sub>
 
 ## 🎯 Key Components
 
