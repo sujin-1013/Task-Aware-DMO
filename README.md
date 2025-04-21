@@ -1,6 +1,4 @@
-# Task-Aware-DMO
-
-**Dynamic Model Optimization for Multi-Task Learning**  
+# Dynamic Model Optimization for Multi-Task Learning
 📄 IEEE Access 2023 — [DOI: 10.1109/ACCESS.2023.3339793](https://doi.org/10.1109/ACCESS.2023.3339793)
 
 This repository introduces the core ideas and implementation of  
