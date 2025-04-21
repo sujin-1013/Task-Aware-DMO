@@ -65,12 +65,12 @@ Multi-task learning (MTL) often suffers from **task interference** and **ineffic
 
 | Method                   | Avg Accuracy (%) | # Parameters (M) | Param Ratio |
 |--------------------------|------------------|------------------|-------------|
-| Single-task              | **74.69**        | 101.68           | 100%        |
-| Soft Param Sharing [7]   | 65.24            | 101.68           | 100%        |
-| Cross-stitch [8]         | 76.33            | 203.36           | 200%        |
-| NDDR [10]                | 59.76            | 252.86           | 248%        |
-| TAPS [6]                 | 59.11            | 130.5            | 128%        |
-| **DMO (Ours)**           | 74.40            | **11.48**        | **11%**     |
+| Single-task              | **74.69**        | 101.68           | **1.00**    |
+| Soft Param Sharing [7]   | 65.24            | 101.68           | 1.00        |
+| Cross-stitch [8]         | 76.33            | 203.36           | 2.00        |
+| NDDR [10]                | 59.76            | 252.86           | 2.49        |
+| TAPS [6]                 | 59.11            | 130.50           | 1.28        |
+| **DMO (Ours)**           | 74.40            | **11.48**        | **0.11**    |
 
 ---
 
