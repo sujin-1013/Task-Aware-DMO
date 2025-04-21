@@ -39,8 +39,6 @@ Multi-task learning (MTL) often suffers from **task interference** and **ineffic
 
 ## 🛠️ Code Structure
 
-## 🛠️ Code Structure
-
 ```
 Task-Aware-DMO/
 ├── models/           # Backbone network, task-specific heads, pruning utilities
@@ -48,6 +46,7 @@ Task-Aware-DMO/
 ├── evaluate.py       # Evaluation and metrics
 ├── config/           # Experimental settings
 ├── results/          # Graphs and tables from the paper
+├── assets/           # Images and visual materials for README
 └── paper/            # Original PDF paper for reference
 ```
 
