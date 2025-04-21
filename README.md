@@ -17,10 +17,9 @@ Multi-task learning (MTL) often suffers from **task interference** and **ineffic
 - Producing **lightweight subnetworks**, reducing parameters by over **80%** on average
 
 <p align="center">
-  <img src="https://github.com/your-username/Task-Aware-DMO/raw/main/dmo_overview.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/sujin-1013/Task-Aware-DMO/main/dmo_overview.png" width="700"/>
 </p>
-
-<sub><i>Figure: Overview of Task-Aware Dynamic Model Optimization framework</i></sub>
+<sub><i>Figure: Overview of Task-Aware Dynamic Model Optimization (DMO)</i></sub>
 
 ## 🎯 Key Components
 
